@@ -1,0 +1,153 @@
+body{
+  text-align: center;
+  background-color: RGB(242,245,244);
+}
+
+.slick-prev:before, .slick-next:before {
+    color:black !important;
+}
+
+#banner{
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #1C7293;
+  color: white;
+  font-family: 'Assistant';
+}
+
+#navbar{
+  font-size: 120%;
+  font-family: 'Assistant';
+  float: left;
+  margin: 0;
+}
+
+#navbar>li{
+  float: left;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-size: 16px;
+    font-family: 'Assistant';
+}
+
+#about{
+  margin: 50px 0px 0px 0px;
+  background-color: white;
+}
+
+.contactForm{
+  margin: 5px;
+}
+
+#projects{
+  padding : 15px;
+  border-top : 1px solid grey;
+  border-bottom : 1px solid grey;
+  margin: 20px;
+}
+
+.description{
+  padding: 0px 15px 0px 15px;
+  text-align: justify;
+}
+
+.centerThis{
+  text-align: center;
+}
+
+.makeBold{
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#textBlock{
+  padding: 30px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+#profilePic{
+  border : 2px solid grey;
+  margin-bottom: 10px;
+}
+
+.col-md-4{
+  padding: 20px;
+}
+
+#skills{
+  padding : 15px;
+  border-top : 1px solid grey;
+  border-bottom : 1px solid grey;
+  margin: 30px;
+}
+
+.thumbnail:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skillTreeBody{
+  background-color: #1C7293;
+  padding:10px;
+  margin-bottom: 40px;
+  border-radius: 0px 0px 10px 10px;
+  font-weight: bold;
+  color:white;
+}
+
+.skillTreeHead{
+  background-color: #36393B;
+  color: white;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  font-weight: bold;
+}
+
+.icon{
+  width: 24px;
+}
+
+#courses{
+  background-color: white;
+  margin:20px
+}
+
+#coursesHeader{
+  padding : 15px;
+  border-top : 1px solid grey;
+  border-bottom : 1px solid grey;
+  margin: 40px;
+}
+
+.coursePics{
+  width: 200px;
+}
+
+.fa{
+  font-size: 24px;
+  margin: 10px
+}
+
+#footer{
+  margin-top: 20px;
+  color: white;
+  background-color: #36393B;
+  padding: 10px;
+}
+
+.col-md-12{
+  text-align: center;
+}
+
+@media only screen and (max-width:720px){
+  .description{
+    text-align: center;
+  }
+}
